@@ -34,8 +34,8 @@
         <div class="container">
             <!-- LOGO -->
             <a class="navbar-brand logo" href="<?= base_url() ?>/home">
-                <img src="<?= base_url() ?>/templatepage/images/112.png" alt="" class="logo-dark" height="80" />
-                <img src="<?= base_url() ?>/templatepage/images/logo-light.png" alt="" class="logo-light" height="28" />
+                <img src="<?= base_url() ?>/templatepage/images/112a.png" alt="" class="logo-dark" height="80" />
+                
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="" data-feather="menu"></i>

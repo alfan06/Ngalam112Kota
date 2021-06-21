@@ -34,7 +34,7 @@
         <div class="container">
             <!-- LOGO -->
             <a class="navbar-brand logo" href="<?= base_url() ?>/home">
-                <img src="<?= base_url() ?>/templatepage/images/112.png" alt="" class="logo-dark" height="80" />
+                <img src="<?= base_url() ?>/templatepage/images/112a.png" alt="" class="logo-dark" height="80" />
                 <img src="<?= base_url() ?>/templatepage/images/logo-light.png" alt="" class="logo-light" height="28" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,7 +73,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <i class="mb-4 icon-lg sw-1_5 text-primary" data-feather="sunrise"></i>
+                  <!--   <i class="mb-4 icon-lg sw-1_5 text-primary" data-feather="sunrise"></i> -->
                     <h1 class="font-weight-semibold mb-4 hero-6-title">Layanan Panggilan Darurat
                         <b>Ngalam 112 - Kota Malang</b>
                     </h1>
@@ -275,7 +275,7 @@
                         <div class="col-lg-3 col-6">
                             <div class="mt-4 mt-lg-0">
                                 <h4 class="text-white font-size-18 mb-3">Kerja Sama</h4>
-                                <img src="<?= base_url() ?>/templatepage/images/logo/KerjaSama.png" alt="" class="" height="220" /></a>
+                                <img src="<?= base_url() ?>/templatepage/images/logo/KerjaSama.png"  style="width: 100%" /></a>
                             </div>
                         </div>
                     </div>
