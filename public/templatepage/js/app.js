@@ -28,7 +28,7 @@ window.addEventListener('scroll', (ev) => {
 
 // Smooth scroll 
 var scroll = new SmoothScroll('#navbar-navlist a', {
-    speed: 500
+    speed: 300
 });
 
 
@@ -97,10 +97,19 @@ feather.replace();
 
 // Preloader
 
-window.onload = function loader() { 
+window.onload = function loader() {
     setTimeout(() => {
         document.getElementById('preloader').style.visibility = 'hidden';
         document.getElementById('preloader').style.opacity = '0';
     }, 350);
-} 
+}
 
+var header = document.getElementById("navbar-navlist");
+var btns = header.getElementsByClassName("nav-link");
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+    });
+}
